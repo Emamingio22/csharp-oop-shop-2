@@ -34,6 +34,8 @@ namespace C__Shop_2
             this.Nome = Nome;
         }
 
+       
+
 
 
         private double PrezzoSenzaIva()
@@ -69,6 +71,7 @@ namespace C__Shop_2
             Console.WriteLine("Prezzo con IVA: " + Prezzo);
             Console.WriteLine("Descrizione prodotto: " + Descrizione);
             Console.WriteLine("Nome esteso prodotto " + Codice + Nome);
+            
         }
 
 
